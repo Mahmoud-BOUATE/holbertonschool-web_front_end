@@ -1,0 +1,35 @@
+
+/* 1. Définition des variables sur l'élément racine */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+
+/* 2. Couleur du texte pour le body */
+body {
+    color: var(--text-color);
+}
+
+/* 3. Couleur du texte pour tous les liens */
+a {
+    color: var(--text-color);
+}
+
+/* 4. Cacher les éléments avec la classe visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* 5. Couleur du texte pour les éléments avec la classe card-category */
+.card-category {
+    color: var(--color-primary);
+}
+
+/* 6. Couleur du texte pour les éléments avec la classe section-tagline */
+.section-tagline {
+    color: var(--color-primary);
+}
