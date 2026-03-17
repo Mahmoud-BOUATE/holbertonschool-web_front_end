@@ -28,19 +28,20 @@
     --line-height-base: 1.5;
     --line-height-big: 1.8;
 
-    /* 1. Définir la variable pour l’alignement des headers */
+    /* Section header alignment */
     --section-header-align: center;
-    /* 2. Définir la variable pour la transformation des section taglines */
+
+    /* Section tagline transformation */
     --section-tagline-transform: uppercase;
 
-    /* 3. Définir la variable pour les marges des titres de section */
+    /* Marges des titres de section */
     --section-title-margin: 0;
 
-    /* 4. Définir la variable pour la couleur des titres de section */
+    /* Couleur des titres de section */
     --section-title-color: var(--color-black);
 }
 
-/* 2. Taille de référence pour rem */
+/* 2. Taille de référence pour rem et scroll smooth */
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -71,27 +72,27 @@ a[href]:hover {
     text-decoration: underline;
 }
 
-/* 7. Liens actifs (active) */
+/* 7. Liens actifs */
 a[href]:active {
     background-color: var(--color-light-grey);
 }
 
-/* 5. Éléments invisibles */
+/* 8. Éléments invisibles */
 .visually-hidden {
     display: none;
 }
 
-/* 6. Catégories */
+/* 9. Catégories */
 .card-category {
     color: var(--color-primary);
 }
 
-/* 2. Section header */
+/* 10. Section header */
 .section-header {
     text-align: var(--section-header-align);
 }
 
-/* 3. Section title */
+/* 11. Section title */
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -100,7 +101,7 @@ a[href]:active {
     color: var(--section-title-color);
 }
 
-/* 7. Section tagline */
+/* 12. Section tagline */
 .section-tagline {
     color: var(--color-primary);
     font-family: var(--font-family-title);
@@ -108,7 +109,7 @@ a[href]:active {
     font-weight: var(--font-weight-bold);
 }
 
-/* 8. Titres h1 à h6 */
+/* 13. Titres h1 à h6 */
 h1,
 h2,
 h3,
