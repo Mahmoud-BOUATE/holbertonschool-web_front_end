@@ -10,6 +10,11 @@
     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* Body */
+body {
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+}
 
 /* Liens */
 a {
