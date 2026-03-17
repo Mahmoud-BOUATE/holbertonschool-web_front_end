@@ -55,25 +55,25 @@ body {
     line-height: var(--line-height-base);
 }
 
-/* 4. Liens */
+/* 4. Liens normaux */
 a[href] {
-    /* styles pour les liens normaux */
     color: var(--text-color);
     text-decoration: none;
 }
+
 /* 5. Liens visités */
 a[href]:visited {
-    font-style: italic;            /* texte en italique */
+    font-style: italic;
 }
 
 /* 6. Liens au survol (hover) */
 a[href]:hover {
-    text-decoration: underline;    /* souligné quand on survole */
+    text-decoration: underline;
 }
 
-/* 7. Liens actifs (quand on clique) */
+/* 7. Liens actifs (active) */
 a[href]:active {
-    background-color: var(--color-light-grey);  /* fond gris clair */
+    background-color: var(--color-light-grey);
 }
 
 /* 5. Éléments invisibles */
@@ -86,12 +86,12 @@ a[href]:active {
     color: var(--color-primary);
 }
 
-/* 2. Appliquer l’alignement à la classe section-header */
+/* 2. Section header */
 .section-header {
     text-align: var(--section-header-align);
 }
 
-/* 3. Appliquer les marges et la couleur à la classe section-title */
+/* 3. Section title */
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -108,7 +108,7 @@ a[href]:active {
     font-weight: var(--font-weight-bold);
 }
 
-/* 8. Titres */
+/* 8. Titres h1 à h6 */
 h1,
 h2,
 h3,
