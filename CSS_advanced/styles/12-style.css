@@ -36,7 +36,7 @@
     /* 3. Définir la variable pour les marges des titres de section */
     --section-title-margin: 0;
 
-    /* 4. Définir la variable pour les marges des titres de section */
+    /* 4. Définir la variable pour la couleur des titres de section */
     --section-title-color: var(--color-black);
 }
 
@@ -75,10 +75,11 @@ a {
 .section-header {
     text-align: var(--section-header-align);
 }
+
 /* 3. Appliquer les marges et la couleur à la classe section-title */
 .section-title {
     font-family: var(--font-family-title);
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
@@ -102,4 +103,3 @@ h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
-
