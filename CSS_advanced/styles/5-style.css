@@ -23,6 +23,7 @@
 /* 2. Taille de référence pour rem */
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 /* 3. Body */
@@ -53,6 +54,11 @@ a {
 }
 
 /* 8. Titres */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-family-title);
 }
