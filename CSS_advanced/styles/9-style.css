@@ -47,6 +47,7 @@ body {
 /* 4. Liens */
 a {
     color: var(--text-color);
+    text-decoration: none;
 }
 
 /* 5. Éléments invisibles */
