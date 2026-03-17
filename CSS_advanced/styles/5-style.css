@@ -1,4 +1,4 @@
-/* 1. Définition des variables sur l’élément racine */
+/* Variables globales */
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -6,6 +6,7 @@
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
+
     --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -14,19 +15,18 @@
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
-
 }
 
-/* html */
+/* Réglage du html */
 html {
     font-size: 62.5%;
 }
+
 /* Body */
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
-    font-size: (var(--font-size-medium));
-
+    font-size: var(--font-size-medium);
 }
 
 /* Liens */
