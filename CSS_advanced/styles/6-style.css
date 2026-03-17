@@ -1,4 +1,4 @@
-/* Variables globales */
+/* 1. Variables globales */
 :root {
     /* Couleurs */
     --color-primary: #d73953;
@@ -18,41 +18,53 @@
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
+
+    /* Epaisseur de texte */
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
 }
 
-/* Taille de référence pour rem */
+/* 2. Taille de référence pour rem */
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
-/* Body */
+/* 3. Body */
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
+    font-weight: (var(--font-weight-regular));
 }
 
-/* Liens */
+/* 4. Liens */
 a {
     color: var(--text-color);
 }
 
-/* Éléments invisibles */
+/* 5. Éléments invisibles */
 .visually-hidden {
     display: none;
 }
 
-/* Catégories */
+/* 6. Catégories */
 .card-category {
     color: var(--color-primary);
 }
 
-/* Section tagline */
+/* 7. Section tagline */
 .section-tagline {
     color: var(--color-primary);
 }
 
-/* Titres */
-h1, h2, h3, h4, h5, h6 {
+/* 8. Titres */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-family-title);
+    font-weight: (var(--font-weight-bold));
 }
