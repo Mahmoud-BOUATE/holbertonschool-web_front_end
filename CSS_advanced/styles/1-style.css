@@ -1,3 +1,24 @@
-html {
-    scroll-behavior: smooth;
+/* 1. Couleur du texte pour le body */
+body {
+    color: #161616;
+}
+
+/* 2. Couleur du texte pour tous les liens */
+a {
+    color: #161616;
+}
+
+/* 3. Cacher les éléments avec la classe visually-hidden */
+.visually-hidden {
+    display: none;
+}
+
+/* 4. Couleur du texte pour les éléments avec la classe card-category */
+.card-category {
+    color: #D73953;
+}
+
+/* 5. Couleur du texte pour les éléments avec la classe section-tagline */
+.section-tagline {
+    color: #D73953;
 }
