@@ -426,8 +426,10 @@ template {
     --footer-padding: 5rem 0 1rem;
 }
 
-*, *::before, *::after {
-  box-sizing: border-box;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 /* 2. Base HTML */
@@ -463,59 +465,66 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
-/* 8. Éléments invisibles */
+/* 5. Éléments invisibles */
 .visually-hidden {
     display: none;
 }
 
-/* 9. Catégories */
+/* 6. Catégories */
 .card-category {
     color: var(--color-primary);
 }
 
-.section{
+/* 7. Section */
+.section {
     padding-left: var(--section-padding);
     padding-right: var(--section-padding);
     padding-top: var(--section-padding);
-    padding-inline: var(--section-padding) ;
+    padding-inline: var(--section-padding);
 }
 
-/* 10. Section header */
+/* 8. Section header */
 .section-header {
     text-align: var(--section-header-align);
     padding-left: var(--section-header-padding);
     padding-right: var(--section-header-padding);
     padding-top: var(--section-header-padding);
-    padding-inline: var(--section-header-padding) ;
+    padding-inline: var(--section-header-padding);
 }
 
+/* 9. Section body */
 .section-body {
     padding-left: var(--section-body-padding);
     padding-right: var(--section-body-padding);
     padding-top: var(--section-body-padding);
-    padding-inline: var(--section-body-padding) ;
-
+    padding-inline: var(--section-body-padding);
 }
 
+/* 10. Section footer */
 .section-footer {
     padding-left: var(--section-body-padding);
     padding-right: var(--section-body-padding);
     padding-top: var(--section-body-padding);
     padding-inline: var(--section-body-padding);
     text-align: var(--section-footer-align);
-
 }
 
+/* 11. Footer */
 .footer {
     padding-left: var(--footer-padding);
     padding-right: var(--footer-padding);
     padding-top: var(--footer-padding);
-    padding-inline: var(--footer-padding) ;
+    padding-inline: var(--footer-padding);
 }
 
+/* 12. Container */
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
-/* 11. Section title */
+/* 13. Section title */
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -524,7 +533,7 @@ a:active {
     color: var(--section-title-color);
 }
 
-/* 12. Section tagline */
+/* 14. Section tagline */
 .section-tagline {
     color: var(--color-primary);
     font-family: var(--font-family-title);
@@ -532,13 +541,7 @@ a:active {
     font-weight: var(--font-weight-bold);
 }
 
-.container {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* 13. Titres */
+/* 15. Titres */
 h1,
 h2,
 h3,
