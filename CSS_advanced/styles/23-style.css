@@ -649,9 +649,9 @@ ul.row {
 }
 
 .social-link {
-    display: block; /* rend le lien en bloc */
+    display: block;
 }
 
-.social-link svg {
-    fill: var(--text-color); /* applique la couleur du texte à l'icône SVG */
+.social-link>svg {
+    fill: var(--text-color);
 }
