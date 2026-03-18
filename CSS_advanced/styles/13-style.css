@@ -54,7 +54,7 @@ body {
     line-height: var(--line-height-base);
 }
 
-/* 4. Liens (EXERCICE 13 CORRECT) */
+/* 4. Liens */
 a[href] {
     color: var(--text-color);
     text-decoration: none;
