@@ -692,13 +692,33 @@ ul.row {
 }
 
 .button:hover {
-    color: var(--button-hover-color);                 /* couleur du texte au survol */
-    text-decoration: var(--button-hover-text-decoration); /* style de texte au survol */
-    background: var(--button-hover-background);       /* couleur de fond au survol */
+    color: var(--button-hover-color);
+    /* couleur du texte au survol */
+    text-decoration: var(--button-hover-text-decoration);
+    /* style de texte au survol */
+    background: var(--button-hover-background);
+    /* couleur de fond au survol */
 }
 
 [data-section-theme="dark"] .button:hover {
-    color: var(--button-hover-color);                 /* applique les mêmes règles pour thème dark */
+    color: var(--button-hover-color);
+    /* applique les mêmes règles pour thème dark */
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
+}
+
+.card-testimonial {
+    text-align: center;
+}
+
+.card-testimonial .card-avatar {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.card-testimonial .card-quote cite {
+    display: block;
+    padding-top: 1rem;
+    color: var(--color-primary);
 }
