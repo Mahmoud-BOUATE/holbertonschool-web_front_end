@@ -54,14 +54,14 @@ body {
     line-height: var(--line-height-base);
 }
 
-/* 4. Liens (EXERCICE 13 CORRIGÉ) */
+/* 4. Liens (EXERCICE 13 CORRECT) */
 a[href] {
     color: var(--text-color);
     text-decoration: none;
+    font-style: italic;
 }
 
 a[href]:visited {
-    font-style: italic;
 }
 
 a[href]:hover {
