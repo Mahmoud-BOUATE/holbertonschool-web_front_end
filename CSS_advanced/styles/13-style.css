@@ -23,25 +23,23 @@
     --font-weight-regular: 400;
     --font-weight-bold: 700;
 
-    /* Defining line heights */
+    /* Line heights */
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
 
-    /* Section header alignment */
+    /* Section header */
     --section-header-align: center;
 
-    /* Section tagline transformation */
+    /* Section tagline */
     --section-tagline-transform: uppercase;
 
-    /* Marges des titres de section */
+    /* Section title */
     --section-title-margin: 0;
-
-    /* Couleur des titres de section */
     --section-title-color: var(--color-black);
 }
 
-/* 2. Taille de référence pour rem et scroll smooth */
+/* 2. Base HTML */
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -56,21 +54,21 @@ body {
     line-height: var(--line-height-base);
 }
 
-/* 4. Liens normaux */
+/* 4. Liens (EXERCICE 13 CORRIGÉ) */
 a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
 
-a:visited {
+a[href]:visited {
     font-style: italic;
 }
 
-a:hover {
+a[href]:hover {
     text-decoration: underline;
 }
 
-a:active {
+a[href]:active {
     background-color: var(--color-light-grey);
 }
 
@@ -106,7 +104,7 @@ a:active {
     font-weight: var(--font-weight-bold);
 }
 
-/* 13. Titres h1 à h6 */
+/* 13. Titres */
 h1,
 h2,
 h3,
