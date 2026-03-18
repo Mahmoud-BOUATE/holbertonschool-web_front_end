@@ -62,17 +62,14 @@ a[href] {
     text-decoration: none;
 }
 
-/* 5. Liens visités */
 a:visited {
     font-style: italic;
 }
 
-/* 6. Liens au survol (hover) */
 a:hover {
     text-decoration: underline;
 }
 
-/* 7. Liens actifs */
 a:active {
     background-color: var(--color-light-grey);
 }
