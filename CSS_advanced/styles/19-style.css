@@ -496,7 +496,7 @@ a:active {
 
 /* 8. Section header */
 .section-header {
-     padding: var(--section-header-padding);
+    padding: var(--section-header-padding);
 }
 
 /* 9. Section body */
@@ -513,9 +513,10 @@ a:active {
 /* 11. Footer */
 .footer {
     padding: var(--footer-padding);
-    ul {
-        text-align: right;
-    }
+}
+
+.footer ul {
+    text-align: right;
 }
 
 /* 12. Container */
@@ -558,6 +559,7 @@ h6 {
 .navbar-menu {
     float: right;
 }
+
 /*17. Nav container*/
 
 .nav {
@@ -566,8 +568,9 @@ h6 {
     list-style: none;
     text-align: center;
 
-/*18. Nav items*/
+    /*18. Nav items*/
 }
+
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
@@ -577,6 +580,7 @@ h6 {
     margin: var(--nav-item-margin);
 
 }
+
 /*19. Nav link*/
 .nav .nav-link {
     display: block;
@@ -591,28 +595,32 @@ h6 {
 
 /* 21. Grille */
 ul.row {
-    margin: 0;          /* supprime toutes les marges */
-    padding: 0;         /* supprime tout padding */
-    list-style: none;   /* supprime les puces ou chiffres par défaut */
+    margin: 0;
+    /* supprime toutes les marges */
+    padding: 0;
+    /* supprime tout padding */
+    list-style: none;
+    /* supprime les puces ou chiffres par défaut */
 }
 
 /* 22. Colonne 1/3 */
-.col-1-3{
-    width: 33.3333%;
+.col-1-3 {
+    width: 33.33%;
     float: left;
-    padding: 0 1rem; /* ajoute un peu d'espace entre les colonnes */
+    padding: 0.5rem;
 }
+
 /* 23. Colonne 1/2 */
 
-.col-1-2{
-    width: 50%; /* définit la largeur de la colonne à 50% du conteneur parent */
-    float: left; /* fait flotter la colonne à gauche pour permettre à d'autres éléments de s'aligner à côté */
-    padding: 0 1rem; /* ajoute un peu d'espace entre les colonnes */
+.col-1-2 {
+    width: 50%;
+    float: left;
+    padding: 0.5rem;
 }
-/* 24. Colonne 2/3 */
- .footer-copyright {
-        margin: none; /* supprime toutes les marges */
-        font-size: var(--font-size-small); /* définit la taille de la police à une valeur plus petite pour le copyright */
-        color: var(--text-color); /* utilise la couleur de texte définie dans les variables CSS */
- }
 
+/* 24. Colonne 2/3 */
+.footer-copyright {
+    margin: 0;
+    font-size: var(--font-size-small);
+    color: var(--text-color);
+}
