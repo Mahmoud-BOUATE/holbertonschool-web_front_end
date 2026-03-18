@@ -430,13 +430,10 @@ template {
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 0.04rem; /* 4% de root (1rem = 10px) */
+    --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 3rem 0; /* bottom = 3rem, autres = 0 */
+    --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
-
-    /* Padding pour nav-link */
-    --nav-link-padding: 0.5rem 1rem; /* top/bottom = 0.5rem, left/right = 1rem */
 
 }
 
@@ -557,14 +554,14 @@ h6 {
 /*17. Nav container*/
 
 .nav {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     list-style: none;
     text-align: center;
 
 /*18. Nav items*/
 }
-nav .nav-item {
+.nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -574,13 +571,13 @@ nav .nav-item {
 
 }
 /*19. Nav link*/
-nav .nav-link {
+.nav .nav-link {
     display: block;
-    padding: var(--nav-link-padding);
+    padding: 0.5rem 1rem;
 }
 
 /* 20. Hover effect sur nav-link */
 
-nav .nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
