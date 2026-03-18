@@ -662,7 +662,7 @@ ul.row {
     display: block;
 }
 
-.social-link>svg {
+.social-link svg {
     fill: var(--text-color);
 }
 
@@ -692,13 +692,17 @@ ul.row {
 }
 
 .button:hover {
-    color: var(--button-hover-color);                 /* couleur du texte au survol */
-    text-decoration: var(--button-hover-text-decoration); /* style de texte au survol */
-    background: var(--button-hover-background);       /* couleur de fond au survol */
+    color: var(--button-hover-color);
+    /* couleur du texte au survol */
+    text-decoration: var(--button-hover-text-decoration);
+    /* style de texte au survol */
+    background-color: var(--button-hover-background);
+    /* couleur de fond au survol */
 }
 
 [data-section-theme="dark"] .button:hover {
-    color: var(--button-hover-color);                 /* applique les mêmes règles pour thème dark */
+    color: var(--button-hover-color);
+    /* applique les mêmes règles pour thème dark */
     text-decoration: var(--button-hover-text-decoration);
-    background: var(--button-hover-background);
+    background-color: var(--button-hover-background);
 }
